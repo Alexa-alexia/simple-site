@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+    <h3>i) Table</h3>
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid black;">Firstname</th>
+                <th style="border: 1px solid black;">Lastname</th>
+                <th style="border: 1px solid black;">Birthday</th>
+                <th style="border: 1px solid black;">Username</th>
+                <th style="border: 1px solid black;">E-mail</th>
+                <th style="border: 1px solid black;">Website</th>
+                <th style="border: 1px solid black;">Password</th>
+                <th style="border: 1px solid black;">Re-password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alexia</td>
+                <td>Fauzia</td>
+                <td>09/09</td>
+                <td>Afauzia</td>
+                <td>afauzia@gmail.com</td>
+                <td>www.fauzia.com</td>
+                <td>0101</td>
+                <td>0101</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <h3>ii) Form</h3>
+
+    <h1 style="font-family: monospace;">CAT 1</h1>
+
+    <p style="color: red; padding-left: 200px;">*Mandatory to fill</p>
+
+    <form action="Kisiiuniversity.com" method="POST" id="" style="display: table; padding-left: 200px;">
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="first name">Firstname:</label>
+            <input style="display: table-cell;" type="text" name="FirstName" size="20" maxlength="30" required autofocus >
+            <span style="color: red;">*</span>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="last name">Lastname:</label>
+            <input style="display: table-cell;" type="text" name="LastName" size="20" maxlength="30" required>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="Birthday">Birthday:</label>
+            <select name = "Day">
+                <option value = "Date" selected>Day</option>
+            </select>
+             <select name="Month" id="">
+                <option value = "Date">Month</option>
+             </select>
+             <select name="Year" id="">
+                <option value = "Date">Year</option>
+             </select>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="username">Username:</label>
+            <input style="display: table-cell;" type="text" name="Username" size="20" maxlength="30" required>
+            <span style="color: red;">*</span>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="email">E-mail:</label>
+            <input style="display: table-cell;" type="email" name="Email" size="20" maxlength="30">
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="website">Website:</label>
+            <input style="display: table-cell;" type="text" name="website" size="20" maxlength="30">
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="password">Password:</label>
+            <input style="display: table-cell;" type="password" name="Password" size="20" maxlength="30" required>
+            <span style="color: red;">*</span>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+            <label style="display: table-cell;" for="re-password">Re-password:</label>
+            <input style="display: table-cell;" type="password" name="Re-password" size="20" maxlength="30" required>
+            <span style="color: red;">*</span>
+        </div>
+        <br>
+
+        <div style="display: table-row;">
+             <input style="display: table-cell;" type="checkbox" name="verify" id="verify" value="">
+             <label style="display: table-cell;" for="verify">I agree to the terms & conditions</label> <br>
+        </div>
+        <br>
+
+        <button style="color: #fff; background-color: #000;  padding: 0px 15px;">Sign up</button>  
+
+    </form>   
+    
+</body>
+</html>
